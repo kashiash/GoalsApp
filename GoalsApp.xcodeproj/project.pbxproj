@@ -11,6 +11,25 @@
 		9F76F29427079272005C5B02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F29327079272005C5B02 /* ContentView.swift */; };
 		9F76F29627079273005C5B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F76F29527079273005C5B02 /* Assets.xcassets */; };
 		9F76F29927079273005C5B02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F76F29827079273005C5B02 /* Preview Assets.xcassets */; };
+		9F76F2A02707944C005C5B02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F76F29F2707944C005C5B02 /* GoogleService-Info.plist */; };
+		9F76F2A327079576005C5B02 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9F76F2A227079576005C5B02 /* FirebaseFirestore */; };
+		9F76F2A527079576005C5B02 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 9F76F2A427079576005C5B02 /* FirebaseFirestoreSwift-Beta */; };
+		9F76F2AC2707973C005C5B02 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2AB2707973C005C5B02 /* Goal.swift */; };
+		9F76F2AE270798F9005C5B02 /* FirebaseGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2AD270798F9005C5B02 /* FirebaseGoalRepository.swift */; };
+		9F76F2B027079D39005C5B02 /* GoalRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2AF27079D39005C5B02 /* GoalRepositoryProtocol.swift */; };
+		9F76F2B22707A2B7005C5B02 /* MockGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2B12707A2B7005C5B02 /* MockGoalRepository.swift */; };
+		9F76F2B42707B2AE005C5B02 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2B32707B2AE005C5B02 /* ColorUtils.swift */; };
+		9F76F2B62707B520005C5B02 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2B52707B520005C5B02 /* DateUtils.swift */; };
+		9F76F2B82707B61D005C5B02 /* EmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2B72707B61D005C5B02 /* EmojiTextField.swift */; };
+		9F76F2BA2707B822005C5B02 /* NavigationBarUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2B92707B822005C5B02 /* NavigationBarUtil.swift */; };
+		9F76F2BC2707B927005C5B02 /* AnimationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2BB2707B927005C5B02 /* AnimationUtil.swift */; };
+		9F76F2BE2708ACF8005C5B02 /* GoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2BD2708ACF8005C5B02 /* GoalViewModel.swift */; };
+		9F76F2C02708AE62005C5B02 /* GoalListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2BF2708AE62005C5B02 /* GoalListViewModel.swift */; };
+		9F76F2C22708B028005C5B02 /* AddGoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2C12708B028005C5B02 /* AddGoalViewModel.swift */; };
+		9F76F2C42708B22F005C5B02 /* GoalDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2C32708B22F005C5B02 /* GoalDetailViewModel.swift */; };
+		9F76F2C62708B3AC005C5B02 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2C52708B3AC005C5B02 /* GoalView.swift */; };
+		9F76F2C82708B530005C5B02 /* AddNewGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2C72708B530005C5B02 /* AddNewGoal.swift */; };
+		9F76F2CA2708B809005C5B02 /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F2C92708B809005C5B02 /* GoalDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +38,23 @@
 		9F76F29327079272005C5B02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F76F29527079273005C5B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F76F29827079273005C5B02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F76F29F2707944C005C5B02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F76F2AB2707973C005C5B02 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		9F76F2AD270798F9005C5B02 /* FirebaseGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseGoalRepository.swift; sourceTree = "<group>"; };
+		9F76F2AF27079D39005C5B02 /* GoalRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalRepositoryProtocol.swift; sourceTree = "<group>"; };
+		9F76F2B12707A2B7005C5B02 /* MockGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGoalRepository.swift; sourceTree = "<group>"; };
+		9F76F2B32707B2AE005C5B02 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		9F76F2B52707B520005C5B02 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		9F76F2B72707B61D005C5B02 /* EmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTextField.swift; sourceTree = "<group>"; };
+		9F76F2B92707B822005C5B02 /* NavigationBarUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarUtil.swift; sourceTree = "<group>"; };
+		9F76F2BB2707B927005C5B02 /* AnimationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUtil.swift; sourceTree = "<group>"; };
+		9F76F2BD2708ACF8005C5B02 /* GoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewModel.swift; sourceTree = "<group>"; };
+		9F76F2BF2708AE62005C5B02 /* GoalListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalListViewModel.swift; sourceTree = "<group>"; };
+		9F76F2C12708B028005C5B02 /* AddGoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewModel.swift; sourceTree = "<group>"; };
+		9F76F2C32708B22F005C5B02 /* GoalDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailViewModel.swift; sourceTree = "<group>"; };
+		9F76F2C52708B3AC005C5B02 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		9F76F2C72708B530005C5B02 /* AddNewGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGoal.swift; sourceTree = "<group>"; };
+		9F76F2C92708B809005C5B02 /* GoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F76F2A327079576005C5B02 /* FirebaseFirestore in Frameworks */,
+				9F76F2A527079576005C5B02 /* FirebaseFirestoreSwift-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +89,13 @@
 		9F76F29027079272005C5B02 /* GoalsApp */ = {
 			isa = PBXGroup;
 			children = (
+				9F76F2A627079686005C5B02 /* Repositories */,
+				9F76F2A72707969B005C5B02 /* Utils */,
+				9F76F2A8270796A5005C5B02 /* ViewModels */,
+				9F76F2A9270796B1005C5B02 /* Views */,
+				9F76F2AA270796BA005C5B02 /* Models */,
+				9F76F29F2707944C005C5B02 /* GoogleService-Info.plist */,
 				9F76F29127079272005C5B02 /* GoalsAppApp.swift */,
-				9F76F29327079272005C5B02 /* ContentView.swift */,
 				9F76F29527079273005C5B02 /* Assets.xcassets */,
 				9F76F29727079273005C5B02 /* Preview Content */,
 			);
@@ -65,6 +108,58 @@
 				9F76F29827079273005C5B02 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F76F2A627079686005C5B02 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				9F76F2AF27079D39005C5B02 /* GoalRepositoryProtocol.swift */,
+				9F76F2AD270798F9005C5B02 /* FirebaseGoalRepository.swift */,
+				9F76F2B12707A2B7005C5B02 /* MockGoalRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		9F76F2A72707969B005C5B02 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9F76F2B32707B2AE005C5B02 /* ColorUtils.swift */,
+				9F76F2B52707B520005C5B02 /* DateUtils.swift */,
+				9F76F2B72707B61D005C5B02 /* EmojiTextField.swift */,
+				9F76F2B92707B822005C5B02 /* NavigationBarUtil.swift */,
+				9F76F2BB2707B927005C5B02 /* AnimationUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9F76F2A8270796A5005C5B02 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9F76F2BD2708ACF8005C5B02 /* GoalViewModel.swift */,
+				9F76F2BF2708AE62005C5B02 /* GoalListViewModel.swift */,
+				9F76F2C12708B028005C5B02 /* AddGoalViewModel.swift */,
+				9F76F2C32708B22F005C5B02 /* GoalDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9F76F2A9270796B1005C5B02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F76F29327079272005C5B02 /* ContentView.swift */,
+				9F76F2C52708B3AC005C5B02 /* GoalView.swift */,
+				9F76F2C72708B530005C5B02 /* AddNewGoal.swift */,
+				9F76F2C92708B809005C5B02 /* GoalDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F76F2AA270796BA005C5B02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F76F2AB2707973C005C5B02 /* Goal.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +178,10 @@
 			dependencies = (
 			);
 			name = GoalsApp;
+			packageProductDependencies = (
+				9F76F2A227079576005C5B02 /* FirebaseFirestore */,
+				9F76F2A427079576005C5B02 /* FirebaseFirestoreSwift-Beta */,
+			);
 			productName = GoalsApp;
 			productReference = 9F76F28E27079272005C5B02 /* GoalsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +210,9 @@
 				Base,
 			);
 			mainGroup = 9F76F28527079272005C5B02;
+			packageReferences = (
+				9F76F2A127079576005C5B02 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9F76F28F27079272005C5B02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +229,7 @@
 			files = (
 				9F76F29927079273005C5B02 /* Preview Assets.xcassets in Resources */,
 				9F76F29627079273005C5B02 /* Assets.xcassets in Resources */,
+				9F76F2A02707944C005C5B02 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +241,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F76F29427079272005C5B02 /* ContentView.swift in Sources */,
+				9F76F2BA2707B822005C5B02 /* NavigationBarUtil.swift in Sources */,
+				9F76F2B82707B61D005C5B02 /* EmojiTextField.swift in Sources */,
+				9F76F2C82708B530005C5B02 /* AddNewGoal.swift in Sources */,
+				9F76F2B62707B520005C5B02 /* DateUtils.swift in Sources */,
+				9F76F2BC2707B927005C5B02 /* AnimationUtil.swift in Sources */,
+				9F76F2CA2708B809005C5B02 /* GoalDetailView.swift in Sources */,
+				9F76F2C42708B22F005C5B02 /* GoalDetailViewModel.swift in Sources */,
+				9F76F2BE2708ACF8005C5B02 /* GoalViewModel.swift in Sources */,
+				9F76F2C62708B3AC005C5B02 /* GoalView.swift in Sources */,
+				9F76F2B42707B2AE005C5B02 /* ColorUtils.swift in Sources */,
+				9F76F2AC2707973C005C5B02 /* Goal.swift in Sources */,
+				9F76F2B22707A2B7005C5B02 /* MockGoalRepository.swift in Sources */,
+				9F76F2C22708B028005C5B02 /* AddGoalViewModel.swift in Sources */,
+				9F76F2B027079D39005C5B02 /* GoalRepositoryProtocol.swift in Sources */,
+				9F76F2C02708AE62005C5B02 /* GoalListViewModel.swift in Sources */,
 				9F76F29227079272005C5B02 /* GoalsAppApp.swift in Sources */,
+				9F76F2AE270798F9005C5B02 /* FirebaseGoalRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GoalsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PFVCA649R3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -276,13 +396,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.devtechie.GoalsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashiash.GoalsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -298,6 +418,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GoalsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PFVCA649R3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -305,13 +426,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.devtechie.GoalsApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashiash.GoalsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,6 +462,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F76F2A127079576005C5B02 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F76F2A227079576005C5B02 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F76F2A127079576005C5B02 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		9F76F2A427079576005C5B02 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F76F2A127079576005C5B02 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F76F28627079272005C5B02 /* Project object */;
 }
